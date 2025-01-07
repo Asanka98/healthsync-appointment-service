@@ -5,7 +5,7 @@ class AppointmentBase(BaseModel):
     patient_name: str
     doctor_name: str
     appointment_time: datetime
-    reason: str | None = None
+    reason: str 
 
 class AppointmentCreate(AppointmentBase):
     pass
