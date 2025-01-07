@@ -43,4 +43,4 @@ spec:
     app: appointment-service 
   ports:
   - port: 80
-    targetPort: 8085
+    targetPort: 8080
